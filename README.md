@@ -27,16 +27,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./1.png)
-![](./2.png)
-![](./3.png)
-![](./4.png)
-![](./5.png)
-![](./6.png)
-![](./7.png)
-![](./8.png)
-![](./9.png)
-![](./10.png)
+![](./screenshots/1.png)
+![](./screenshots/2.png)
+![](./screenshots/3.png)
+![](./screenshots/4.png)
+![](./screenshots/5.png)
+![](./screenshots/6.png)
+![](./screenshots/7.png)
+![](./screenshots/8.png)
+![](./screenshots/9.png)
+![](./screenshots/10.png)
 
 ### Links
 
@@ -67,7 +67,7 @@ Users should be able to:
 
 - Me - [@TemirlanZhumagulov](https://github.com/TemirlanZhumagulov)
 - Daniyaruly Danial - [@DaniyarulyDanial]()
-- Umirbek Nurbek - [@]UmirbekNurbek()
+- Umirbek Nurbek - [@UmirbekNurbek]()
 
 ## Acknowledgments
 
