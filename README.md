@@ -65,10 +65,12 @@ Users should be able to:
 
 ## Author
 
-- Me - [@TemirlanZhumagulov]()
-- Danial - [@]()
-- Nubek
+- Me - [@TemirlanZhumagulov](https://github.com/TemirlanZhumagulov)
+- Daniyaruly Danial - [@DaniyarulyDanial]()
+- Umirbek Nurbek - [@]UmirbekNurbek()
 
 ## Acknowledgments
 
-I am grateful to my team for participating in the layout and coming up with a design, thanks to this, we won the 3rd place at IT FEST 2022 and 50,000₸
+I am grateful to my team for participating in the layout and coming up with a design, thanks to this, we won the 3rd place at IT FEST 2022 and 50,000₸ in the Information Technology Section (Digital University) - https://itfest.kz/winners/
+
+
