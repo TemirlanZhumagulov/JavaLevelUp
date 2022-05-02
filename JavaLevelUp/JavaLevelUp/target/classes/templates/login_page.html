@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Login page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+<div class="firstpage">
+    <div class="container ">
+
+        <header>
+            <div class="header">
+                <img src="../static/images/logo.png" alt="" class="header-logo">
+                <nav>
+                    <div class="header-nav">
+                        <p class="nav-p">ABOUT US</p>
+                        <p class="nav-p">CONTACTS</p>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+    </div>
+    <div class="signup">
+
+        <form class="s-form" name="f" th:action="@{/login}" method="post">
+            <fieldset style="border: 0px solid black;">
+                <p class="signup-title">LOG IN</p>
+                <div th:if="${param.error}">
+                    <p class="text-danger" style="color:red; padding-left:10px; ">[[${session.SPRING_SECURITY_LAST_EXCEPTION.message}]]</p>
+                </div>
+
+                <div th:if="${param.logout}">
+                    <p class="text-warning">You have been logged out.</p>
+                </div>
+
+                <label for="fname" class="fname">Email</label><br>
+                <input type="email" id="fname" name="fname" required><br>
+                <label for="lname" class="lname">Password</label><br>
+                <input id="lname" name="lname" type="password" required>
+                <br>
+            </fieldset>
+
+            <input type="submit" value="LOG IN" class="submit">
+        </form>
+    </div>
+</div>
+</body>
+</html>

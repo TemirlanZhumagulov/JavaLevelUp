@@ -1,0 +1,102 @@
+<html class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers"
+      lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+
+    <title>Main page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/style4.css">
+</head>
+<body>
+<div class="firstpage">
+    <div class="container ">
+        <header>
+            <div class="header">
+                <img src="../images/logo.png" alt="" class="header-logo">
+                <nav>
+                    <div class="header-nav">
+                        <a href="../levels" style="text-decoration: none"> </A><p class="nav-p">LEVELS</p></a>
+                        <a href="#aboutuss" style="text-decoration: none"><p class="nav-p">ABOUT US</p></a>
+                        <a href="#aboutuss" style="text-decoration: none"><p class="nav-p">CONTACTS</p></a>
+                        <p class="nav-p"><span th:text="${userLogin}"></span></p>
+                        <p class="nav-p nav-ps"><a href="/payment2" style="text-decoration: none">No subscription</a></p>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <p class="first-head">Save The Princess</p>
+        <p class=" first-heads">with us</p>
+        <p class="first-text">JavaLevelUp - will help you to learn Java not only faster,</p>
+        <p class="first-text">  but more interesting</p>
+        <img src="../images/princess.png" alt="" class="princess">
+    </div>
+</div>
+
+<section class="level">
+    <h1>LEVEL 2</h1>
+    <img src="../images/location.png">
+    <h3>Theoretical part</h3>
+    <p>
+        Most operations in Java are similar to those used in other c-like languages. There are unary operations (performed on one operand), binary operations - on two operands, and ternary operations - performed on three operands. An operand is a variable or value (for example, a number) involved in the operation. Consider all types of operations.<br><br>
+
+        Numbers are involved in arithmetic operations. Java has binary arithmetic operations (performed on two operands) and unary operations (performed on one operand). Binary operations include the following: "+", "-", "*", "/".<br>
+        When dividing, keep in mind that if two integers are involved in the operation, the result of the division will be rounded to an integer, even if the result is assigned to a float or double variable.<br><br>
+        In order for the result to represent a floating-point number, one of the operands must also represent a floating-point number.<br>
+        There are also two unary arithmetic operations that are performed on a single number: ++ (increment) and -- (decrement). Each of the operations has two varieties: prefix and postfix.<br>
+    </p>
+    <p>
+        Some operations have a higher priority than others, and therefore are performed at the beginning. Operations in order of decreasing priority:<br>
+        ++ (increment), -- (decrement)<br>
+        * (multiplication), / (division), % (remainder of division)<br>
+        + (addition), - (subtraction)<br>
+    </p>
+    <h3>Control Questions</h3>
+    <form accept="#" action="#" id="form">
+        <label for="first_q">How many basic data types java have?</label><span id="first_correct"></span><span id="first_wrong"></span><br>
+        <input type="text" id="first_q" name="first_q"><br>
+        <label for="second_q">You need to save this number “3147483647” as a variable, which data type will be effective to use?</label><span id="second_correct"></span><span id="second_wrong"></span><br>
+        <input type="text" id="second_q" name="second_q"><br>
+        <label for="third_q"> What escape character will you use if you want to store string in several lines?</label><span id="third_correct"></span><span id="third_wrong"></span><br>
+        <input type="text" id="third_q" name="third_q"><br>
+        <h3>Let`s go Practice!</h3>
+        <div class="problem">
+            <h4>Problem №1</h4>
+            <p>If a = 3 and b = 5, then calculate a * b / (a + b) and write it down as C. Also write down the remainder of dividing d = 11 by e = 3 as f. Using the console, determine how much c * f will be.</p>
+        </div>
+        <iframe loading="lazy" frameborder="no" height="500px" scrolling="no" src="https://repl.it/@DanialDaniyarul/FormalAmbitiousMacrolanguage?lite=true" width="850px" data-rocket-lazyload="fitvidscompatible" class="lazyloaded" data-ll-status="loaded"></iframe><br>
+
+        <label for="answer">Your answer:</label><span id="problem_correct"></span><span id="problem_wrong"></span><br>
+        <input type="text" id="answer" name="answer"><br>
+
+        <input type="submit" id="submit" name="submit" value="Check answers">
+    </form>
+</section>
+
+<div class="footer">
+    <footer>
+        <div class="container">
+            <div class="dddd">
+                <div class="about">
+                    <div class="about-title">About US</div>
+                    <p class="about-text">We are a team of enthusiasts who have big dreams and great goals, who are just starting their way into IT <br>
+                        Umirbek Nurbek<br>
+                        Daniyaruly Danial<br>
+                        Zhumagulov Temirlan</p>
+                </div>
+                <div class="about" id="aboutuss">
+                    <div class="about-title">Contacts</div>
+                    <p class="about-text">
+                        8 707 522 63 85<br>
+                        8 700 633 75 96r<br>
+                        8 777  756 74 31</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="script2.js"></script>
+</body>
+</html>
+

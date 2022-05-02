@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.firstpage{
+    background-image: url("../images/background.png");
+    background-size: cover;
+    height: 100vh;
+
+}
+.header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+
+}
+.nav-p{
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.5263px;
+    line-height: 30px;
+    color: #0E2033;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.nav-ps{
+    color: #D33F3F;}
+.quest1{
+    float: right;
+}
+.first-head{
+
+font-family: 'Iceland';
+font-style: normal;
+font-weight: 400;
+font-size: 114.958px;
+line-height: 112px;
+
+color: #0E2033;
+text-align: center;
+padding-top: 100px;
+}
+.first-heads{
+
+font-family: 'Iceland';
+font-style: normal;
+font-weight: 400;
+font-size: 114.958px;
+line-height: 112px;
+
+color: #0E2033;
+text-align: center;
+}
+.first-text{
+    font-family: 'Iceland';
+font-style: normal;
+font-weight: 700;
+font-size: 30.8824px;
+line-height: 35px;
+color: rgba(0, 0, 0, 0.9);
+text-align: center;
+}
+.princess{
+    position: absolute;
+    width: 400px;
+    height: 650px;
+    right:3%;
+    bottom: 6%;
+}
+.signup-title{
+    text-align: center;
+    font-family: 'Hanalei Fill';
+font-style: normal;
+font-weight: 400;
+font-size: 54.9474px;
+line-height: 72px;
+/* identical to box height */
+
+
+color: #0E2033;
+}
+.s-form{
+    width: 596px;
+height: 501px;
+background: rgba(116, 116, 116, 0.5);
+border-radius: 30px;
+margin: 0 auto;
+}
+.fname{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.5263px;
+    line-height: 30px;
+    text-align: center;
+    color: #0E2033;
+margin-left: 50px;
+
+}
+#fname{
+    width: 487px;
+    height: 42px;
+    background: rgba(252, 252, 252, 0.8);
+    border-radius: 120px;
+    margin: 0 auto;
+    border: none;
+    margin-left: 50px;
+}
+.lname{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.5263px;
+    line-height: 30px;
+    text-align: center;
+    color: #0E2033;
+    margin-left: 50px;
+}
+#lname{
+    width: 487px;
+    height: 42px;
+    background: rgba(252, 252, 252, 0.8);
+    border-radius: 120px;
+    margin: 0 auto;
+    border: none;
+    margin-left: 50px;
+}
+#elname{
+    width: 487px;
+    height: 42px;
+    background: rgba(252, 252, 252, 0.8);
+    border-radius: 120px;
+    margin: 0 auto;
+    border: none;
+    margin-left: 50px;
+}
+.elname{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.5263px;
+    line-height: 30px;
+    text-align: center;
+    color: #0E2033;
+    margin-left: 50px;
+}
+.submit{
+    width: 200px;
+    height: 49.34px;
+    font-family: 'Donegal One', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38.5783px;
+    line-height: 48px;
+    color: #000000;
+    background: #417CEE;
+    border-radius: 8.19149px;
+    border: none;
+   margin-left: 200px ;
+   margin-top: 50px;
+}

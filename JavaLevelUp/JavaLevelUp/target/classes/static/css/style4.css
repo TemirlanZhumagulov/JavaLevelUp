@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&family=Montserrat&display=swap');
+@font-face {
+    font-family: 'Handjet';
+    src: local('Handjet Bold'), local('Handjet-Bold'),
+        url('HandjetCircle-Bold.woff2') format('woff2'),
+        url('HandjetCircle-Bold.woff') format('woff'),
+        url('HandjetCircle-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.firstpage{
+    background-image: url("../images/background.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-p{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.5263px;
+    line-height: 30px;
+    color: #0E2033;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.nav-ps{
+    color: #D33F3F;
+}
+
+.quest1{
+    float: right;
+}
+
+.first-head{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 114.958px;
+    line-height: 112px;
+
+    color: #0E2033;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.first-heads{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 114.958px;
+    line-height: 112px;
+
+    color: #0E2033;
+    text-align: center;
+}
+
+.first-text{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.8824px;
+    line-height: 35px;
+
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.princess{
+    position: absolute;
+    width: 400px;
+    height: 650px;
+    right:3%;
+    bottom: 6%;
+}
+
+.level, footer {
+    position: relative;
+    background-color: #4899D3;
+    width: 100%;
+    padding: 5%;
+}
+
+.level h1 {
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200.164px;
+    line-height: 190px;
+
+    color: #FFFFFF;
+}
+
+.level img {
+    position: absolute;
+    right: 30%;
+    top: 3%;
+}
+
+.level h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 97.5579px;
+    line-height: 140px;
+    color: #000000;
+}
+
+.level p {
+    font-family: 'Donegal One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+.level label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35.822px;
+    line-height: 44px;
+
+    color: #FFE600;
+}
+
+.level #first_wrong, .level #second_wrong, .level #third_wrong, .level #problem_wrong {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35.822px;
+    line-height: 44px;
+    color: #FF0000;
+}
+
+.level #first_correct, .level #second_correct, .level #third_correct, .level #problem_correct {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35.822px;
+    line-height: 44px;
+    color: #00FF00;
+}
+
+.level input[type=text] {
+    background: #EEDCDC;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 150px;
+}
+
+.problem {
+    background: rgba(30, 30, 30, 0.9);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 3%;
+}
+
+.problem h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65.2213px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.problem p {
+    font-family: 'Donegal One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.level iframe {
+    margin: 50px 0px;
+}
+
+.level input[type=submit] {
+    background: #417CEE;
+    border-radius: 13.9458px;
+
+    font-family: 'Do Hyeon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 55px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    border: 10px;
+    border-color: #274f9c;
+    padding: 5px 10px;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+.level input[type=submit]:hover {
+    border: #417CEE;
+}
+
+.about{
+    width: 500px;
+}
+
+.dddd{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.about-title{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 103.675px;
+    line-height: 101px;
+    color: #FFFFFF;
+}
+
+.about-text{
+    font-family: 'Donegal One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+}

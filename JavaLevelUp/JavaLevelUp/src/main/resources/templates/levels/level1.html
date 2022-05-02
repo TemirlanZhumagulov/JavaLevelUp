@@ -1,0 +1,128 @@
+<html class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers"
+      lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+
+    <title>Main page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/style4.css">
+</head>
+<body>
+<div class="firstpage">
+    <div class="container ">
+        <header>
+            <div class="header">
+                <img src="../images/logo.png" alt="" class="header-logo">
+                <nav>
+                    <div class="header-nav">
+                        <a href="../levels" style="text-decoration: none"> </A><p class="nav-p">LEVELS</p></a>
+                        <a href="#aboutuss" style="text-decoration: none"><p class="nav-p">ABOUT US</p></a>
+                        <a href="#aboutuss" style="text-decoration: none"><p class="nav-p">CONTACTS</p></a>
+                        <p class="nav-p"><span th:text="${userLogin}"></span></p>
+                        <p class="nav-p nav-ps"><a href="/payment2" style="text-decoration: none">No subscription</a></p>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <p class="first-head">Save The Princess</p>
+        <p class=" first-heads">with us</p>
+        <p class="first-text">JavaLevelUp - will help you to learn Java not only faster,</p>
+        <p class="first-text">  but more interesting</p>
+        <img src="../images/princess.png" alt="" class="princess">
+    </div>
+</div>
+
+<section class="level">
+    <h1>LEVEL 1</h1>
+    <img src="../images/location.png">
+    <h3>Theoretical part</h3>
+    <p>Variables are used to store data in the program. A variable represents a named memory area that stores a value of a certain type. Each variable has a type, name, and value. The type defines what information a variable or a range of valid values can store.<br><br>
+        Variables are declared as follows:<br>
+        <code>data_type variable_name;</code><br>
+        For example, let's define a variable that will be called x and will be of type int:<br>
+        <code>int x;</code>
+    </p>
+
+    <p><br>One of the main features of Java is that this language is strongly typed. This means that each variable and constant represents a certain type and this type is strictly defined. The data type defines the range of values that a variable or constant can store.<br><br>
+        So, let's look at the system of built-in basic data types that is used to create variables in Java. And it is represented by the following types.<br><br>
+        boolean: stores the value true or false<br>
+        <code>boolean isActive = false;<br>
+            boolean isAlive = true;</code><br>
+
+        byte: stores an integer from -128 to 127 and takes 1 byte<br>
+        <code>byte a = 3;<br>
+            byte b = 8;</code><br>
+
+        short: stores an integer from -32768 to 32767 and takes 2 bytes<br>
+        <code>short a = 3;<br>
+            short b = 8;</code><br>
+
+        int: stores an integer from -2147483648 to 2147483647 and occupies 4 bytes<br>
+        <code>int a = 4;<br>
+            int b = 9;</code><br>
+
+        long: stores an integer from -9 223 372 036 854 775 808 to 9 223 372 036 854 775 807 and occupies 8 bytes<br>
+        <code>long a = 5;<br>
+            long b = 10;</code><br>
+
+        double: stores a floating-point number from ±4.9*10-324 to ±1.8*10308 and occupies 8 bytes<br>
+        <code>double x = 8.5;<br>
+            double y = 2.7;</code><br>
+
+        A dot is used as the separator of the integer and fractional parts in fractional literals.<br>
+
+        float: stores a floating-point number from -3.4*1038 to 3.4*1038 and takes up 4 bytes<br>
+        <code>float x = 8.5F;<br>
+            float y = 2.7F;</code><br>
+
+        char: stores a single UTF-16 encoded character and occupies 2 bytes, so the range of stored values is from 0 to 65535.
+    </p>
+    <h3>Control Questions</h3>
+    <form accept="#" action="#" id="form">
+        <label for="first_q">How many basic data types java have?</label><span id="first_correct"></span><span id="first_wrong"></span><br>
+        <input type="text" id="first_q" name="first_q"><br>
+        <label for="second_q">You need to save this number “3147483647” as a variable, which data type will be effective to use?</label><span id="second_correct"></span><span id="second_wrong"></span><br>
+        <input type="text" id="second_q" name="second_q"><br>
+        <label for="third_q"> What escape character will you use if you want to store string in several lines?</label><span id="third_correct"></span><span id="third_wrong"></span><br>
+        <input type="text" id="third_q" name="third_q"><br>
+        <h3>Let`s go Practice!</h3>
+        <div class="problem">
+            <h4>Problem №1</h4>
+            <p>After each completed topic, we have topics. And after each completed level, a task awaits you. This means that you will not only know what you learned, but also where you limp and will be able to improve your skills. After each completed topic, we have topics. And after each completed level, a task awaits you. This means that you will not only know what you learned, but also where you limp and will be able to improve your skills.</p>
+        </div>
+        <iframe loading="lazy" frameborder="no" height="500px" scrolling="no" src="https://repl.it/@DanialDaniyarul/FormalAmbitiousMacrolanguage?lite=true" width="850px" data-rocket-lazyload="fitvidscompatible" class="lazyloaded" data-ll-status="loaded"></iframe><br>
+
+        <label for="answer">Your answer:</label><span></span><br>
+        <input type="text" id="answer" name="answer"><br>
+
+        <input type="submit" id="submit" name="submit" value="Check answers">
+    </form>
+</section>
+<div class="footer">
+    <footer>
+    <div class="container">
+        <div class="dddd">
+            <div class="about">
+                <div class="about-title">About US</div>
+                <p class="about-text">We are a team of enthusiasts who have big dreams and great goals, who are just starting their way into IT <br>
+                    Umirbek Nurbek<br>
+                    Daniyaruly Danial<br>
+                    Zhumagulov Temirlan</p>
+            </div>
+            <div class="about" id="aboutuss">
+                <div class="about-title">Contacts</div>
+                <p class="about-text">
+                    8 707 522 63 85<br>
+                    8 700 633 75 96r<br>
+                    8 777  756 74 31</p>
+            </div>
+        </div>
+    </div>
+    </footer>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.firstpage{
+    background-image: url("../images/background.png");
+    background-size: cover;
+    height: 100vh;
+
+}
+.header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+
+}
+.nav-p{
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.5263px;
+    line-height: 30px;
+    color: #0E2033;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.nav-ps{
+    color: #D33F3F;}
+.quest1{
+    float: right;
+}
+.first-head{
+
+font-family: 'Iceland';
+font-style: normal;
+font-weight: 400;
+font-size: 114.958px;
+line-height: 112px;
+
+color: #0E2033;
+text-align: center;
+padding-top: 100px;
+}
+.first-heads{
+
+font-family: 'Iceland';
+font-style: normal;
+font-weight: 400;
+font-size: 114.958px;
+line-height: 112px;
+
+color: #0E2033;
+text-align: center;
+}
+.first-text{
+    font-family: 'Iceland';
+font-style: normal;
+font-weight: 700;
+font-size: 30.8824px;
+line-height: 35px;
+color: rgba(0, 0, 0, 0.9);
+text-align: center;
+}
+.princess{
+    position: absolute;
+    width: 400px;
+    height: 650px;
+    right:3%;
+    bottom: 6%;
+}
+.second-page{
+    background-color:  #4899D3;
+    background-size: cover;
+    height: 320vh;
+
+
+}
+.second-title{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200.164px;
+    line-height: 194px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.q1{
+    position: absolute;
+    right: 0%;
+
+}
+.second-p{
+    font-family: 'Hanalei Fill';
+font-style: normal;
+font-weight: 400;
+font-size: 64.4118px;
+line-height: 84px;
+text-align: center;
+
+color: rgba(255, 0, 0, 0.9);
+}
+.level2{
+    position: relative;
+    top: 90;
+}
+.level3{
+    position: relative;
+    top: 150;
+}
+.mario-go{
+    position: relative;
+    top: 220;
+    right: 40;
+}
+.level4{
+    position: relative;
+    top: 300;
+    right: 50;
+}
+.level5{
+    position: relative;
+    top: 250;
+    left: 650;
+}
+.level6{
+    position: relative;
+    top: 350;
+    left: 200;
+}
+.mario-gos{
+    position: relative;
+    top: 420;
+    right: 130;
+}
+.level7{
+    position: relative;
+    top: 550;
+    right: 570;
+}
+.q2{
+    position: relative;
+    right: 250;
+}
+.q3{
+    position: relative;
+left: 800;
+}
+.level8{
+    position: relative;
+    top: 650;
+    right: 570;
+}
+.level9{
+    position: relative;
+    top: 500;
+   left: 470;
+}
+.level10{
+    position: relative;
+    top: 650;
+   left: 470;
+}
+.about{
+    width: 500px;
+}
+.dddd{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about-title{
+    font-family: 'Iceland';
+font-style: normal;
+font-weight: 400;
+font-size: 103.675px;
+line-height: 101px;
+color: #FFFFFF;
+}
+.about-text{
+    font-family: 'Donegal One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+}

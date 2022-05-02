@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Register page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/signup.css">
+</head>
+<body>
+<div class="firstpage">
+    <div class="container ">
+
+        <header>
+            <div class="header">
+                <img src="../static/images/logo.png" alt="" class="header-logo">
+                <nav>
+                    <div class="header-nav">
+                        <p class="nav-p">ABOUT US</p>
+                        <p class="nav-p">CONTACTS</p>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+    </div>
+    <div class="signup">
+
+        <form class="s-form" th:action="@{/process_register}" method="post" th:object="${user}">
+            <p class="signup-title">SIGN UP</p>
+
+            <label for="fname" class="fname">Username</label><br>
+            <input th:field="*{login}" type="text" id="fname" name="fname" required><br>
+            <label for="lname" class="lname">E-mail</label><br>
+            <input th:field="*{email}" type="email" id="lname" name="lname"
+                   pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" required><br>
+            <label for="elname" class="elname">Password</label><br>
+            <input th:field="*{password}" type="password" id="elname" name="elname"
+                   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                   title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                   required><br>
+            <input type="submit" value="SIGN UP" class="submit">
+        </form>
+    </div>
+</div>
+</body>
+</html>
