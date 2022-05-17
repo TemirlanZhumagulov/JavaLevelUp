@@ -63,7 +63,7 @@ Users should be able to:
 - [baeldung](https://www.baeldung.com/spring-data-jpa-query/) - This helped me for writing this query - @Query(value = "SELECT * FROM USERS u WHERE u.email = ?1", nativeQuery = true)
 - [justcoded](https://justcoded.com/blog/how-to-integrate-a-payment-gateway-into-a-website/) - it helped me to integrate paypal API
 
-## Author
+## Authors
 
 - Me - [@TemirlanZhumagulov](https://github.com/TemirlanZhumagulov)
 - Daniyaruly Danial - [@DaniyarulyDanial](https://github.com/daniyarulydanial)
