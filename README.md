@@ -66,7 +66,7 @@ Users should be able to:
 ## Author
 
 - Me - [@TemirlanZhumagulov](https://github.com/TemirlanZhumagulov)
-- Daniyaruly Danial - [@DaniyarulyDanial]()
+- Daniyaruly Danial - [@DaniyarulyDanial](https://github.com/daniyarulydanial)
 - Umirbek Nurbek - [@UmirbekNurbek]()
 
 ## Acknowledgments
