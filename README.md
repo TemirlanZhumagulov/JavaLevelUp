@@ -5,6 +5,7 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -24,7 +25,7 @@ Users should be able to:
 - Give wrong answers and get a response
 - When passing the level, it should change color
 
-### Screenshot
+### Screenshots
 
 ![](./screenshots/1.png)
 ![](./screenshots/2.png)
